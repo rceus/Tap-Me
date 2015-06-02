@@ -34,7 +34,7 @@
     count = 0;
     
     timerLabel.text = [NSString stringWithFormat:@"Time: %li", (long)seconds];
-    scoreLabel.text = [NSString stringWithFormat:@"Score\n%li", (long)count];
+    scoreLabel.text = [NSString stringWithFormat:@"Score: %li", (long)count];
     
     timer = [NSTimer scheduledTimerWithTimeInterval:1.0f
                                              target:self
